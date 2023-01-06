@@ -1,0 +1,53 @@
+.hero{
+    display: flex;
+    padding: 0 200px;
+}
+.hero-info, .hero-img{
+    width: 50%;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -50px;
+}
+.hero-title{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #323232;
+    line-height: 60px;
+}
+.brand{
+    color: #1F42AD;
+    font-family: "Quicksand", sans-serif;
+}
+.hero-desc{
+    margin: 15px 0;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.hero-cto{
+    width: 50%;
+    height: 50px;
+    background-color: #1F42AD;
+    color: #fff;
+    font: normal 700 18px "Quicksand", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+}
+.hero-cto:hover{
+    background-color: #1f42add7;
+    cursor: pointer;
+}
+.hero-img{
+    display: flex;
+    justify-content: center;
+}
+.hero-img img{
+    height: 400px;
+}
